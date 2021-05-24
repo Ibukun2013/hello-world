@@ -14,3 +14,11 @@ Players = ("Dave","Steve","John")
 Cup1 = (12,15,9)
 for items in Cup1:
     print(items)
+#To practice If statements and print strings
+price = 1000000
+has_good_credit = True
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.1 * price
+print(f"{down_payment}")
